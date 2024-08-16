@@ -8,7 +8,7 @@ from email.mime.text import MIMEText
 from email.utils import formatdate
 
 # Set the hardcoded date for testing
-hardcoded_date = datetime(2024, 7, 10).date()
+hardcoded_date = datetime(2024, 7, 15).date()
 formatted_date = hardcoded_date.strftime('%d/%m/%Y')
 
 # Read the CSV and Excel files
